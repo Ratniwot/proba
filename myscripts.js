@@ -1,6 +1,6 @@
-// if(confirm('WEBSITE JE TRENUTNO URAĐEN SAMO ZA RAČUNAR.ZA DALJI NASTAVAK PTRITISNITE "CANCEL"')){
-// window.location.reload();  
-// }
+ if(confirm('WEBSITE JE TRENUTNO URAĐEN SAMO ZA RAČUNAR,UZ NEDOSTATAK PAR DORADA.ZA DALJI NASTAVAK PTRITISNITE "CANCEL"')){
+window.location.reload();  
+ }
 
 let slideIndex = 1;
 showSlides(slideIndex);
