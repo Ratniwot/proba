@@ -1,0 +1,761 @@
+body{
+
+  background-color: black;
+
+}
+
+html{
+
+  scroll-behavior: smooth;
+
+}
+
+* {
+  
+  box-sizing:border-box;
+
+}
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+.cont{
+  margin: 0 auto;
+  max-width: 66.5%;
+
+}
+
+.fadee {
+  opacity: 1;
+}
+
+.columns1 {
+
+  background-color: yellow;
+  column-count: 2;
+  display: inline-block;
+
+}
+
+.columns2{
+
+  background-color: darkblue;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  word-spacing: 100px;
+
+}
+
+.columns3{
+padding: 5% 0 5% 0;
+color: yellow;
+background-color: darkblue;
+font-size: 30px;
+
+}
+
+.columns4{
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+  column-count: 2;
+  justify-content: space-between;
+}
+
+.columns5{
+  display: flex;
+  text-align: center;
+  background-color: darkblue;
+  column-count: 2;
+  justify-content: space-between;
+  padding: 0 0 5% 0;
+}
+
+.columns6{
+  background-color: darkblue;
+  color: darkblue;
+  text-shadow: 1px 0 0 yellow, 0 -1px 0 yellow, 0 1px 0 yellow, -1px 0 0 yellow;
+  font-size: 30px;
+  text-align: center;
+  padding: 5% 2% 5% 2%;
+}
+
+.columns7{
+  padding: 2% 0 0 0;
+  color: yellow;
+  background-color: darkblue;
+  font-size: 20px;
+
+}
+
+.columns8{
+  padding: 5% 0 5% 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: darkblue;
+  margin: 0 0 0% 0;
+  min-height: 400px;
+
+
+}
+
+.columns9{
+
+  padding: 2% 0 2% 0;
+  text-align: center;
+  background-color: yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 yellow, 0 -1px 0 yellow, 0 1px 0 yellow, -1px 0 0 yellow;
+  font-weight: bold;
+  margin: 0% 0 5% 0;
+}
+
+.span1{
+  cursor: pointer;
+  word-spacing: normal;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.span1::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+
+.span1:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.span3{
+  color: white;
+  font-size: 15px;
+  vertical-align: middle;
+
+}
+
+.span2{
+  cursor: pointer;
+  word-spacing: normal;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.span2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+
+.span2:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+
+.col2{
+  padding-top: 7%;
+  text-align: center;
+  color: darkblue;
+  margin: 0;
+
+}
+
+.col3{
+
+  text-align: center;
+  color:yellow;
+  margin-right: 0%;
+  font-weight: bolder;
+
+}
+
+.col4{
+  box-shadow: 8px 8px 8px black;
+  padding: 1% 0 1% 0;
+  margin: 0% 30% 0% 30%;
+  text-align: center;
+  background-color:  yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.col5{
+  color: white;
+  text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+  box-shadow: 8px 8px 8px black;
+  width: 35%;
+  display: block;
+  margin: 0% 4% 2% 8%;
+  padding-top: 2%;
+  border-radius: 5%;
+  background-image: url(tehnickipregled.jpg);
+
+}
+
+.col5:hover{
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  transition-timing-function: ease;
+  transition: ease .3s;
+  margin: 0% 4% 2% 6.5%;
+  width: 37.5%;
+  cursor: pointer;
+
+}
+
+.col6{
+  color: white;
+  text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+  box-shadow: 8px 8px 8px black;
+  width: 35%;
+  margin: 0% 8% 2% 4%;
+  display: block;
+  padding: 2% 2% 2% 2%;
+  background-image: url(zelenikarton.webp);
+  border-radius: 5%;
+
+} 
+
+.col6:hover{
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  transition-timing-function: ease;
+  transition: ease .3s;
+  margin: 0% 7% 2% 4%;
+  width: 37.5%;
+  cursor: pointer;
+  
+
+}
+
+.col7{
+  color: white;
+  text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+  box-shadow: 8px 8px 8px black;
+  width: 35%;
+  margin: 0% 4% 2% 8%;
+  padding: 2% 2% 2% 2%;
+  display: block;
+  background-image: url(registracijavozila.jpg);
+  background-size:cover;
+  border-radius: 5%;
+
+} 
+
+.col7:hover{
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  transition-timing-function: ease;
+  transition: ease .3s;
+  margin: 0% 4% 2% 6.5%;
+  width: 37.5%;
+  cursor: pointer;
+
+}
+
+.col8{
+  color: white;
+  text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+  box-shadow: 8px 8px 8px black;
+  width: 35%;
+  margin: 0% 8% 2% 4%;
+  padding: 2% 2% 2% 2%;
+  display: block;
+  background-image: url(prenosvlasnistva.jpg);
+  background-size: cover;
+  border-radius: 5%;
+
+}
+
+.col8:hover{
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  transition-timing-function: ease;
+  transition: ease .3s;
+  margin: 0% 7% 2% 4%;
+  width: 37.5%;
+  cursor: pointer;
+
+}
+
+
+.col9{
+  box-shadow: 8px 8px 7px black;
+  border-radius: 2%;
+  background-image: url(jerkom.jpg);
+  background-size: cover;
+  padding: 5% 2% 5% 2%;
+  font-weight: bold;
+
+}
+
+.col10{
+  box-shadow: 8px 8px 8px black;
+  padding: 2% 0 2% 0;
+  margin: 0% 30% 0% 30%;
+  text-align: center;
+  background-color:  yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.col11{
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  background-image: url(6meseci.png);
+  background-size: cover;
+  border-radius: 5%;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  margin: 0 0 0 10%;
+  width: 25%;
+}
+
+.col12{
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  background-image: url(kartica.jpg);
+  background-size: cover;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  width: 25%;
+
+
+}
+
+.col13{
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  background-image: url(cekovi.jpg);
+  background-size: cover;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  margin: 0 10% 0 0;
+  width: 25%;
+}
+
+
+h3{
+
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+
+}
+
+
+
+.fa-level-up-alt{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    color: yellow;
+    background-color: darkblue;
+    padding: 1.75%;
+    border:yellow double 1px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: pink;
+  font-weight: bold;
+  padding: 1% 1.25%;
+
+}
+
+.fa-facebook{
+  color: white;
+  background-color: darkblue;
+  padding: 1% 1.5% 1% 1.5%;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.fa-phone-square{
+  cursor: pointer;
+  font-weight: bold;
+  color:black;
+  background-color:grey;
+  padding: 1%;
+  margin-right: 5%;
+
+
+}
+
+.fa-automobile1{
+  border: darkblue double 10px;
+  padding: 1%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.fa-automobile2{
+  border: darkblue double 10px;
+  padding: 1%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left: 2%;
+}
+
+.fa-gears1{
+  border: darkblue double 10px;
+  padding: 2%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+.fa-bus1{
+  border: darkblue double 10px;
+  padding: 2% 2.90% 2% 2.9%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+.fa-automobile3{
+  border: darkblue double 10px;
+  padding: 2%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+.fa-handshake-o1{
+  border: darkblue double 10px;
+  padding: 2.5% 2% 2.5% 2%;
+  color: darkblue;
+  background-color: yellow;
+  border-radius: 50%;
+
+}
+
+.fa-credit-card1{
+
+  margin-right: 2%;
+}
+
+.fa-credit-card2{
+
+  margin-left: 2%;
+}
+
+.logo{
+  max-width: 30%;
+  padding-top: 0.5%;
+  padding-left: 0.5%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: 0 auto;
+  max-width: 66.5%;
+  position: relative;
+  margin: auto;
+  background-color: darkblue;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides1{
+
+  display: block;
+  z-index: -1;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: yellow;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: darkblue;
+}
+
+/* Caption text */
+.text {
+  box-shadow: 8px 8px 8px black;
+  padding-top: 2%;
+  position: absolute;
+  bottom: 10%;
+  right: 55%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  background-color: yellow;
+  width: 40%;
+  height: 200px;
+  border-radius: 5%;
+  font-weight: bold;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+.text2 {
+
+  font-size: 35px;
+}
+
+.p1{
+  font-size: 20px;
+}
+.p2{
+  font-size: 25px;
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active, .dot:hover {
+  background-color:darkblue;
+  border: 2px yellow solid;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+img{
+  max-width: 1000px;
+  max-height: 500px;
+}
+
+.columns10{
+    margin: 5% 0 0 0;
+    padding: 2% 0 2% 0;
+    color: yellow;
+    background-color: darkblue;
+
+}
+
+.radnovreme{
+  min-height: 200px;
+  background-color: darkblue;
+  padding: 2% 0 2% 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+
+.col15{
+
+  box-shadow: 8px 8px 8px black;
+  padding: 2% 0 2% 0;
+  margin: 2% 30% 2% 30%;
+  text-align: center;
+  background-color:  yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.marker1{
+  margin-right: 2%;
+}
+
+.marker2{
+  margin-left: 2%;
+}
+
+.mapa{
+  text-align: center;
+}
+
+.col16{
+background-color: darkblue;
+}
+
+.col17{
+  padding-top: 2%;
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  margin: 0 0 0 5%;
+  text-align: center;
+  width: 25%;
+  background-color: yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+
+}
+
+.col18{
+  padding-top: 2%;
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  text-align: center;
+  width: 25%;
+  background-color: yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+
+.col19{
+  padding-top: 2%;
+  font-weight: bold;
+  box-shadow: 8px 8px 8px black;
+  margin: 0 5% 0 0;
+  text-align: center;
+  width: 25%;
+  background-color: yellow;
+  color: darkblue;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+
+.col20{
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.col21{
+
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+#ime {
+
+  margin-right: 10%;
+
+}
+
+#telefon{
+
+  margin-right: 10%;
+
+}
+
+.fa-phone{
+
+  margin-right: 2%;
+
+}
+
+.fa-clock-o{
+
+  margin-right: 2%;
+
+}
+
+.fa-envelope{
+
+  margin-right: 2%;
+
+}
+
+.kontakt{
+padding: 2% 0;
+background-color: darkblue;
+text-align: center;
+color: yellow;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: yellow;
+  font-weight: bold;
+  color: darkblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+input[type=submit]:hover {
+  background-color: darkblue;
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: darkblue;
+  padding: 2%;
+}
