@@ -297,7 +297,7 @@ font-size: 30px;
 .col9{
   box-shadow: 8px 8px 7px black;
   border-radius: 2%;
-  background-image: url(jerkom.jpg);
+  background-image: url(jarkom.jpg);
   background-size: cover;
   padding: 5% 2% 5% 2%;
   font-weight: bold;
@@ -759,3 +759,4 @@ input[type=submit]:hover {
   background-color: darkblue;
   padding: 2%;
 }
+
