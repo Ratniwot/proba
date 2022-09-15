@@ -1,6 +1,6 @@
- if(confirm('WEBSITE JE TRENUTNO URAĐEN KAO PROBA SAMO ZA RAČUNAR,UZ NEDOSTATAK PAR DORADA NA VIDLJIVOM DELU SAJTA,IZMENA U TEKSTU ITD...ZA DALJI NASTAVAK PRITISNITE "CANCEL"')){
-window.location.reload();  
- }
+ //if(confirm('WEBSITE JE TRENUTNO URAĐEN KAO PROBA SAMO ZA RAČUNAR,UZ NEDOSTATAK PAR DORADA NA VIDLJIVOM DELU SAJTA,IZMENA U TEKSTU ITD...ZA DALJI NASTAVAK PRITISNITE "CANCEL"')){
+//window.location.reload();  
+ //}
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -48,3 +48,12 @@ $(window).on("load",function() {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
