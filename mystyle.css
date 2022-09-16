@@ -2,7 +2,6 @@ body{
 
   background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
 
 html{
@@ -65,7 +64,9 @@ background-color: darkblue;
   background-color: darkblue;
   column-count: 2;
   justify-content: space-between;
+  min-height: 300px;
 }
+
 
 .columns5{
   display: flex;
@@ -74,6 +75,7 @@ background-color: darkblue;
   column-count: 2;
   justify-content: space-between;
   padding: 0 0 5% 0;
+  min-height: 400px;
 }
 
 h2{
@@ -95,9 +97,7 @@ h2{
 
 .columns7{
   padding: 2% 0 2% 0;
-
   background-color: darkblue;
-  font-size: 20px;
 
 }
 
@@ -158,28 +158,6 @@ h2{
 
 }
 
-.span2{
-  cursor: pointer;
-  word-spacing: normal;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.span2::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: white;
-  transition: width .3s;
-}
-
-.span2:hover::after {
-  width: 100%;
-  transition: width .3s;
-}
-
-
 .col2{
   padding-top: 7%;
   text-align: center;
@@ -200,7 +178,7 @@ h2{
   text-shadow: 2px 2px 8px black;
   box-shadow: 8px 8px 8px black;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
 
 }
 .col5{
@@ -210,7 +188,7 @@ h2{
   width: 35%;
   display: block;
   margin: 0% 4% 2% 8%;
-  padding-top: 2%;
+  padding: 2%;
   border-radius: 5%;
   background-image: url(tehnickipregled.jpg);
 
@@ -227,6 +205,22 @@ h2{
 
 }
 
+.p2{
+
+  border: white 2px solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 18px;
+}
+
+.col5:hover .p2{
+
+  border: black 2px solid;
+  color: black;
+  text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+
+}
+
 .col6{
   color: white;
   text-shadow: 2px 2px 8px black;
@@ -237,8 +231,19 @@ h2{
   padding: 2% 2% 2% 2%;
   background-image: url(zelenikarton.webp);
   border-radius: 5%;
-
 } 
+
+  .ul1{
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+  li .span2{
+
+    position: relative;
+    left: -7%;
+
+  }
 
 .col6:hover{
   color: black;
@@ -263,7 +268,6 @@ h2{
   background-image: url(registracijavozila.jpg);
   background-size:cover;
   border-radius: 5%;
-
 } 
 
 .col7:hover{
@@ -288,7 +292,6 @@ h2{
   background-image: url(prenosvlasnistva.jpg);
   background-size: cover;
   border-radius: 5%;
-
 }
 
 .col8:hover{
@@ -309,6 +312,7 @@ h2{
   box-shadow: 8px 8px 7px black;
   background-image: url(jarkom.jpg);
   background-size: cover;
+  background-position: center;
   padding: 5% 2% 5% 2%;
   font-weight: bold;
 
@@ -328,23 +332,16 @@ h2{
 
 }
 
-.col11{
-  font-weight: bold;
-  box-shadow: 8px 8px 8px black;
-  background-image: url(6meseci.png);
-  background-size: cover;
-  margin: 0 0 0 7.5%;
-  padding: 2%;
-  width: 27.5%;
-}
 
 .col12{
   font-weight: bold;
   box-shadow: 8px 8px 8px black;
   background-image: url(kartica.jpg);
   background-size: cover;
+  margin: 0 0 0 7.5%;
   padding: 2%;
-  width: 27.5%;
+  width: 40%;
+  background-position: center;
 
 
 }
@@ -356,12 +353,15 @@ h2{
   background-size: cover;
   margin: 0 7.5% 0 0;
   padding: 2%;
-  width: 27.5%;
+  width: 40%;
+  background-position: center;
 }
 
+/* *//* *//* *//* *//* *//* *//* *//* paragraph */
 
-h3{
-
+p{
+  font-size: 18px;
+  font-weight: bold;
   color: white;
   text-shadow: 2px 2px 8px black;
 
@@ -826,7 +826,7 @@ input[type=submit]:hover {
   transition: height 300ms linear;
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 2% 2%;
   text-decoration: none;
@@ -838,7 +838,6 @@ input[type=submit]:hover {
   overflow: hidden;
   transition: height 300ms linear;
   background-color: darkblue;
-  color: white;
   text-shadow: 2px 2px 8px black;
 }
 
@@ -929,24 +928,6 @@ max-width: 85%;
 
 }
 
-.col11{
-
-width: 26%;
-  
-}
-
-.col12{
-
-  width: 26%;
-
-}
-
-.col13{
-
-  width: 26%;
-
-}
-
 .col14{
 
   padding-top: 1%;
@@ -966,13 +947,44 @@ width: 26%;
 @media only screen and (max-width: 1024px){
 
 
+  .topnav a:not(:last-child) {display: none;}
+  .topnav a.icon {
+    overflow: hidden;
+
+    float: right;
+    display: block;
+  }
+
+
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    color: white;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    border: 1px solid rgb(0, 0, 104);
+    overflow: hidden;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
   .span3{
     display: none;
   }
 
   .col2{
-    padding-top: 9%;
-    word-spacing: 50px;
+    font-size: 35px;
+    padding-top: 10%;
+    word-spacing: 20px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    text-align: left;
 
   }
 
@@ -995,7 +1007,7 @@ width: 26%;
   }
 
   .col4{
-
+    margin: 0% 20% 0% 20%;
     font-size: 24px;
   
   }
@@ -1029,12 +1041,6 @@ width: 26%;
     
     }
     
-    .text2{
-    
-      padding-top: 5%;
-    
-    
-    }
     
     .p1{
     
@@ -1042,13 +1048,6 @@ width: 26%;
     
     }
     
-
-    .columns6{
-      
-      font-size: 24px;
-    
-    }
-  
     
     .col9{
     padding-top: 0;
@@ -1085,28 +1084,24 @@ width: 26%;
       min-height: 300px;
     
     }
-    
-    .col11{
-    
-    width: 24%;
-    }
-    
-    .col12{
-    
-      width: 24%;
-      background-position: center;
-    }
-    
-    .col13{
-      background-position: center;
-      width: 24%;
-    
-    }
+  
     
 }
 
 
 @media only screen and (max-width: 790px){
+
+  .logo{
+
+    max-width: 50%;
+
+  }
+
+  .fa-level-up-alt{
+
+    display: none;
+
+  }
 
   .cont{
 
@@ -1121,32 +1116,6 @@ width: 26%;
 
 
 
-  .topnav a:not(:last-child) {display: none;}
-  .topnav a.icon {
-    overflow: hidden;
-
-    float: right;
-    display: block;
-  }
-
-
-
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    color: black;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    border: 1px solid rgb(0, 0, 104);
-    overflow: hidden;
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
   .text{
     display: none;
 
@@ -1158,17 +1127,7 @@ width: 26%;
 
   }
 
-  .columns4{
 
-
-
-  }
-
-  .columns5{
-
-
-
-  }
 
   h1{
 
@@ -1180,7 +1139,11 @@ width: 26%;
 
 @media only screen and (max-width: 768px){
 
- 
+  .topnav a {
+  
+    padding: 4% 4%;
+
+  }
 
   .fa-phone-square{
 
@@ -1195,7 +1158,7 @@ width: 26%;
 
   .col4{
 
-    font-size: 24px;
+    font-size: 22px;
   
   }
   
@@ -1211,28 +1174,16 @@ width: 26%;
     
     }
     
-    .p1{
-    
-      font-size: 19px;
-    
-    }
-    
-
-    .columns6{
-    
-      font-size: 24px;
-    
-    }
-    
     .col9{
-    
+    background-size: cover;
+    background-position: left;
     max-width: 85%;
     
     }
     
 
     .col10{
-
+      margin: 0% 20% 0% 20%;
       font-size: 20px;
     
     }
@@ -1243,50 +1194,291 @@ width: 26%;
     
     }
     
-    .col11{
-    
-    width: 24%;
-      
-    }
-    
-    .col12{
-    
-      width: 24%;
-    
-    }
-    
-    .col13{
-    
-      width: 24%;
-    
-    }
+    .p3{
 
+      font-size: 16px;
+
+    }
 
 }
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 660px){
+
+  .columns4{
+    padding: 0;
+    margin: 0;
+    column-count: 1;
+    display: block;
+
+
+  }
+
+  .columns5{
+    padding: 0;
+    margin: 0;
+    column-count: 1;
+    display: block;
+
+  }
+
+  .columns6{
+    padding: 2% 2% 4% 2% ;
+    margin: 0;
+    column-count: 1;
+    display: block;
+
+  }
+
+  .col5{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    box-shadow: 8px 8px 8px black;
+    width: 80%;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+    background-image: url(tehnickipregled.jpg);
+    min-height: 275px;
+  
+  }
+  
+  .col5:hover{
+    color: black;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+    transition-timing-function: ease;
+    transition: ease .3s;
+    width: 85%;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+  
+  }
+  
+  .col6{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    box-shadow: 8px 8px 8px black;
+    width: 80%;
+    background-image: url(zelenikarton.webp);
+    border-radius: 5%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+    min-height: 275px;
+  } 
+  
+  .col6:hover{
+    color: black;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+    transition-timing-function: ease;
+    transition: ease .3s;
+    width: 85%;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+  
+  }
+  
+  .col7{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    box-shadow: 8px 8px 8px black;
+    width: 80%;
+    display: block;
+    background-image: url(registracijavozila.jpg);
+    background-size:cover;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+    min-height: 275px;
+  } 
+  
+  .col7:hover{
+    color: black;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+    transition-timing-function: ease;
+    transition: ease .3s;
+    width: 85%;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+
+  }
+  
+  .col8{
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    box-shadow: 8px 8px 8px black;
+    width: 80%;
+    display: block;
+    background-image: url(prenosvlasnistva.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4% 2% 4% 2%;
+    min-height: 275px;
+  }
+  
+  .col8:hover{
+    color: black;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+    transition-timing-function: ease;
+    transition: ease .3s;
+    width: 85%;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+
+  }
+
+  .col10{
+
+    font-size: 18px;
+  
+  }
+
+  .columns11{
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 2px 2px 8px rgb(46, 46, 135);
+    background-color: yellow;
+    display: block;
+    text-align: center;
+    padding: 5% 0 5% 0;
+  }
+
+  .col22{
+    width: 60%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+
+
+  }
+
+  .col23{ 
+
+    width: 60%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+  }
+
+  .col24{
+
+    width: 60%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 4% 2%;
+
+  }
+
+  .col14{
+    font-size: 16px;
+    padding: 4% 0;
+
+  }
+
+}
+
+@media only screen and (max-width: 520px){
+
+  .logo{
+
+    max-width: 60%;
+
+  }
 
   .col2{
-    padding-top: 7%;
+    font-size: 35px;
+    padding-bottom: 7%;
     word-spacing: 20px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    text-align: left;
     
 
   }
 
   .fa-facebook{
-    font-size: 25px;
-    color: white;
-    background-color: darkblue;
-    padding: 3% 3% 2% 3%;
-    font-weight: bold;
-    margin-left: 5%;
+
+    padding: 1% 4%;
+
   }
 
-.fa .fa-instagram{
-  font-size: 25px;
-  padding: 5% 5%;
+  .fa .fa-instagram{
 
-}
+  }
+
+  .col10{
+    margin: 0% 20% 0% 20%;
+    
+  
+  }
+
+  .columns8{
+    display: inherit;
+    column-count: 1;
+    padding: 5% 0 5% 0;
+    text-align: center;
+    background-color: darkblue;
+
+  
+  
+  }
+
+  .col12{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+    width: 60%;
+    background-position: center;
+    min-height: 200px;
+  
+  }
+  
+  .col13{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+    width: 60%;
+    background-position: center;
+    min-height: 200px;
+  }
 
 }
 
