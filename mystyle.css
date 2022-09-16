@@ -191,6 +191,8 @@ h2{
   padding: 2%;
   border-radius: 5%;
   background-image: url(tehnickipregled.jpg);
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -206,7 +208,7 @@ h2{
 }
 
 .p2{
-
+  padding: 1%;
   border: white 2px solid;
   margin-left: 20%;
   margin-right: 20%;
@@ -215,7 +217,7 @@ h2{
 
 .col5:hover .p2{
 
-  border: black 2px solid;
+  border: black 3px solid;
   color: black;
   text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
 
@@ -1007,7 +1009,7 @@ max-width: 85%;
   }
 
   .col4{
-    margin: 0% 20% 0% 20%;
+    margin: 0% 10% 0% 10%;
     font-size: 24px;
   
   }
@@ -1145,17 +1147,20 @@ max-width: 85%;
 
   }
 
+  .fa-facebook{
+    padding: 2.75% 5% 2% 5%;
+
+  }
+  
+  .fa-instagram{
+    padding: 2.5% 4% 2% 4%;
+  }
+
   .fa-phone-square{
 
-    margin-right: 2.5%;
+    padding: 2.5% 4% 2% 4%;
 
   }
-
-  .fa-facebook{
-    
-    margin-left: 2.5%;
-  }
-
   .col4{
 
     font-size: 22px;
@@ -1203,6 +1208,20 @@ max-width: 85%;
 }
 
 @media only screen and (max-width: 660px){
+
+  
+  .col2{
+    font-size: 35px;
+    padding-top: 7.5%;
+    word-spacing: 20px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+
+
 
   .columns4{
     padding: 0;
@@ -1367,7 +1386,7 @@ max-width: 85%;
     background-color: yellow;
     display: block;
     text-align: center;
-    padding: 5% 0 5% 0;
+    padding: 2% 0 2% 0;
   }
 
   .col22{
@@ -1404,7 +1423,7 @@ max-width: 85%;
 
   .col14{
     font-size: 16px;
-    padding: 4% 0;
+    padding: 1% 0;
 
   }
 
@@ -1419,8 +1438,8 @@ max-width: 85%;
   }
 
   .col2{
-    font-size: 35px;
-    padding-bottom: 7%;
+    font-size: 24px;
+    padding-top: 15%;
     word-spacing: 20px;
     overflow: hidden;
     float: none;
@@ -1430,18 +1449,10 @@ max-width: 85%;
 
   }
 
-  .fa-facebook{
-
-    padding: 1% 4%;
-
-  }
-
-  .fa .fa-instagram{
-
-  }
 
   .col10{
-    margin: 0% 20% 0% 20%;
+    margin: 0% 10% 0% 10%;
+    font-size: 18px;
     
   
   }
@@ -1463,7 +1474,7 @@ max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
-    width: 60%;
+    width: 80%;
     background-position: center;
     min-height: 200px;
   
@@ -1475,7 +1486,7 @@ max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
-    width: 60%;
+    width: 80%;
     background-position: center;
     min-height: 200px;
   }
@@ -1487,8 +1498,62 @@ max-width: 85%;
 
 }
 
-@media only screen and (max-width: 319px){
+@media only screen and (max-width: 350px){
 
 
+  
+
+  .col22{
+    width: 72%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+
+
+  }
+
+  .col23{ 
+
+    width: 72%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+  }
+
+  .col24{
+
+    width: 72%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 4% 2%;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 281px){
+
+  .col5{max-width: 85%;}
+
+  .col6{max-width: 85%;}
+
+  .col7{max-width: 85%;}
+
+  .col8{max-width: 85%;}
+
+  .col5:hover{max-width: 90%;}
+
+  .col6:hover{max-width: 90%;}
+
+  .col7:hover{max-width: 90%;}
+
+  .col8:hover{max-width: 90%;}
 
 }
