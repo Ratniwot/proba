@@ -114,7 +114,6 @@ h2{
 }
 
 .columns9{
-
   padding: 2% 0 2% 0;
   text-align: center;
   background-color: yellow;
@@ -1508,7 +1507,7 @@ max-width: 85%;
   }
 
   .col14{
-    font-size: 16px;
+    font-size: 10px;
     padding: 1% 0;
 
   }
