@@ -825,6 +825,12 @@ input[type=submit]:hover {
 
 }
 
+.tehnicki1 p{
+
+  margin-left: 4%;
+
+}
+
 @media only screen and (max-width: 3000px) and (min-width: 1900px)  {
 
 .cont{
