@@ -1,6 +1,4 @@
- //if(confirm('WEBSITE JE TRENUTNO URAĐEN KAO PROBA SAMO ZA RAČUNAR,UZ NEDOSTATAK PAR DORADA NA VIDLJIVOM DELU SAJTA,IZMENA U TEKSTU ITD...ZA DALJI NASTAVAK PRITISNITE "CANCEL"')){
-//window.location.reload();  
- //}
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -57,3 +55,4 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+

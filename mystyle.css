@@ -2,6 +2,13 @@ body{
 
   background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0.1; }
+  to   { opacity: 1; }
 }
 
 html{
@@ -150,6 +157,7 @@ h2{
   transition: width .3s;
 }
 
+
 .span3{
   color: white;
   font-size: 16px;
@@ -167,21 +175,6 @@ h2{
 
 }
 
-
-
-.col4{
-  padding: 1% 0 1% 0;
-  margin: 0% 30% 0% 30%;
-  text-align: center;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
-  color: white;
-  text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
-  font-weight: bold;
-  font-size: 24px;
-
-}
 .col5{
   color: white;
   text-shadow: 2px 2px 8px black;
@@ -216,7 +209,7 @@ h2{
   font-size: 18px;
 }
 
-.col5:hover .p2{
+.columns4 > *:hover .p2 , .columns5 > *:hover .p2{
 
   border: black 3px solid;
   color: black;
@@ -778,50 +771,6 @@ input[type=submit]:hover {
   width: 80%;
 }
 
-.columns11{
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 8px black;
-  background-color: darkblue;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 2% 0 2% 0;
-}
-
-.col22{
-  box-shadow: 8px 8px 8px black;
-  border: 2px solid rgb(0, 0, 95);
-  background-color: darkblue;
-  text-align: center;
-  width: 27.5%;
-  margin: 0 0 0 5%;
-  padding: 2% 0 2% 0;
-
-}
-
-.col23{
-  box-shadow: 8px 8px 8px black;
-  border: 2px solid rgb(0, 0, 95);
-  background-color: darkblue;
-  text-align: center;
-  width: 27.5%;
-  padding: 2% 0 2% 0;
-}
-
-.col24{
-  text-align: center;
-  box-shadow: 8px 8px 8px black;
-  border: 2px solid rgb(0, 0, 95);
-  background-color: darkblue;
-  text-align: center;
-  width: 27.5%;
-  margin: 0 5% 0 0;
-  padding: 2% 0 2% 0;
-}
-
-
-
 .topnav {
   overflow: hidden;
   transition: height 300ms linear;
@@ -858,6 +807,23 @@ input[type=submit]:hover {
   margin-left: 3%;
 }
 
+.tehnicki1{
+  border: 2px solid rgb(0, 0, 110);
+  padding: 2%;
+  text-align: left;
+  background-color: darkblue;
+  font-weight: bold;
+
+}
+
+.tehnicki1 h2{
+  width: 50%;
+  background-color: darkblue;
+  border: 2px solid rgb(0, 0, 110);
+  padding: 1%;
+  box-shadow: 8px 8px 8px black;
+
+}
 
 @media only screen and (max-width: 3000px) and (min-width: 1900px)  {
 
@@ -1046,12 +1012,6 @@ max-width: 85%;
     margin-left: 2.5%;
   }
 
-  .col4{
-    margin: 0% 10% 0% 10%;
-    font-size: 24px;
-  
-  }
-  
   .fa-automobile1{
   
   border: darkblue double 8px;
@@ -1228,12 +1188,6 @@ max-width: 85%;
 
   .col2{
     font-size: 18px
-  }
-
-  .col4{
-
-    font-size: 22px;
-  
   }
   
   .fa-automobile1{
@@ -1460,49 +1414,6 @@ max-width: 85%;
   .col15{
 
     font-size: 20px;
-
-  }
-
-
-  .columns11{
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 8px black;
-    background-color: darkblue  ;
-    display: block;
-    text-align: center;
-    padding: 2% 0 2% 0;
-  }
-
-  .col22{
-    width: 60%;
-    margin-top: 4%;
-    margin-bottom: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 2% 2% 2%;
-
-
-  }
-
-  .col23{ 
-
-    width: 60%;
-    margin-top: 4%;
-    margin-bottom: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 2% 2% 2%;
-  }
-
-  .col24{
-
-    width: 60%;
-    margin-top: 4%;
-    margin-bottom: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 2% 4% 2%;
 
   }
 
@@ -1735,17 +1646,6 @@ max-width: 85%;
 
   }
 
-  .col22{
-    width: 80%;
-  }
-
-  .col23{
-    width: 80%;
-  }
-
-  .col24{
-    width: 80%;
-  }
 }
 
 @media only screen and (max-width: 360px){
@@ -1767,18 +1667,6 @@ max-width: 85%;
   }
 
   .col19{
-    width: 90%;
-  }
-  
-  .col22{
-    width: 90%;
-  }
-
-  .col23{
-    width: 90%;
-  }
-
-  .col24{
     width: 90%;
   }
 
