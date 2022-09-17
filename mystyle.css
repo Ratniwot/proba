@@ -604,7 +604,7 @@ img{
     font-weight: bold;
     text-align: center;
     margin: 0% 0 0% 0;
-    padding: 2% 0 2% 0;
+    padding: 6% 0 2% 0;
     color: darkblue;
     background-color: darkblue;
 
@@ -624,7 +624,7 @@ img{
 
   box-shadow: 8px 8px 8px black;
   padding: 2% 0 2% 0;
-  margin: 2% 30% 2% 30%;
+  margin: 2% 30% 4% 30%;
   text-align: center;
   background-color: darkblue;
   border: 2px solid rgb(0, 0, 110);
@@ -851,9 +851,12 @@ input[type=submit]:hover {
 
 
 .topnav .icon {
+  font-size: 18px;
   overflow: hidden;
   transition: height 300ms linear;
   display: none;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 
@@ -993,12 +996,15 @@ max-width: 85%;
 
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
+    font-size: 18px;
     color: white;
     overflow: hidden;
     position: absolute;
     right: 0;
     top: 0;
-    
+    margin-right: 3%;
+    margin-left: 3%;
+    border: none;
   }
   .topnav.responsive a {
     border: 1px solid rgb(0, 0, 104);
@@ -1217,7 +1223,7 @@ max-width: 85%;
 
   .topnav a {
   
-    padding: 2% 2%;
+    padding: 4% 4%;
 
   }
 
@@ -1595,7 +1601,7 @@ max-width: 85%;
 
 
   .col10{
-    margin: 0% 10% 0% 10%;
+    margin: 4% 10% 0% 10%;
     font-size: 18px;
     
   
@@ -1614,7 +1620,7 @@ max-width: 85%;
 
   .col12{
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
@@ -1625,7 +1631,7 @@ max-width: 85%;
   }
   
   .col13{
-    margin-top: 4%;
+    margin-top: 8%;
     margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -1669,6 +1675,7 @@ max-width: 85%;
 
   .col15{
     font-size: 18px;
+
   }
 
   .iframe2{  height: 200px;}
@@ -1686,18 +1693,8 @@ max-width: 85%;
     font-size: 18px;
   }
 
-}
-
-@media only screen and (max-width: 360px){
-
-  .col2{
-
-    font-size: 20px;
-    
-  }
-
   .col17{
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1709,7 +1706,7 @@ max-width: 85%;
 
   .col18{ 
 
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1719,7 +1716,7 @@ max-width: 85%;
 
   .col19{
 
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1728,10 +1725,22 @@ max-width: 85%;
 
   }
 
+}
+
+@media only screen and (max-width: 360px){
+
+  .col2{
+
+    font-size: 20px;
+    
+  }
+
+  .col15{margin-bottom: 6%;}
+
   
 
   .col22{
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1743,7 +1752,7 @@ max-width: 85%;
 
   .col23{ 
 
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1753,7 +1762,7 @@ max-width: 85%;
 
   .col24{
 
-    width: 72%;
+    width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1779,6 +1788,8 @@ max-width: 85%;
     margin-left: 0;
     margin-right:  0;
   }
+
+  .col15{margin-left: 5%; margin-right: 5%;}
 
   .col17{
     width: 90%;
@@ -1811,5 +1822,11 @@ max-width: 85%;
   .col7:hover{max-width: 90%;}
 
   .col8:hover{max-width: 90%;}
+
+  .col22{width: 90%;}
+
+  .col23{width: 90%;}
+
+  .col24{width: 90%;}
 
 }
