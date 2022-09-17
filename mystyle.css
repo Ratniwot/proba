@@ -311,6 +311,7 @@ h2{
   background-position: center;
   padding: 5% 2% 5% 2%;
   font-weight: bold;
+  line-height: 1.5;
 
 }
 
@@ -829,9 +830,12 @@ input[type=submit]:hover {
   margin: 1%;
   padding: 1%;
   text-align: center;
-  color: darkblue;
-  background-color: yellow;
-  border: 4px solid rgb(0, 0, 110);
+  line-height: 2;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  background-color: darkblue;
+  border: 2px solid rgb(0, 0, 110);
+  box-shadow: 8px 8px 8px black;
 
 }
 
@@ -839,9 +843,8 @@ input[type=submit]:hover {
   display: table;
   padding: 1%;
   margin: 0% 0% 0% 6%;
-  color: darkblue;
-  background-color: yellow;
-  border: 4px solid rgb(0, 0, 110);
+  color: red;
+  background-color: white;
 
 }
 
@@ -852,6 +855,7 @@ input[type=submit]:hover {
   margin-bottom: 2%;
   margin-left: 4%;
   font-size: 20px;
+  line-height: 2;
 
 }
 
@@ -1587,6 +1591,12 @@ max-width: 85%;
   .col15{
     margin: 2% 15% 2% 15%;
   }
+
+  .tehnicki1 h2{
+    width: 90%;
+  
+  }
+
 }
 
 @media only screen and (max-width: 480px){
