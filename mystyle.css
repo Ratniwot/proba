@@ -1561,7 +1561,9 @@ max-width: 85%;
 
    }
 
-   .iframe2{  height: 300px;}
+   .iframe2{  
+    height: 300px;
+  }
 
    .fa-arrow-up{
     position: fixed;
@@ -1648,6 +1650,12 @@ max-width: 85%;
 
 @media only screen and (max-width: 480px){
 
+  .columns7{
+    padding: 2% 0 4% 0;
+    background-color: darkblue;
+  
+  }
+
   .col2{
     font-size: 24px;
     padding-top: 12%;
@@ -1678,7 +1686,10 @@ max-width: 85%;
 
   }
 
-  .iframe2{  height: 200px;}
+  .iframe2{  
+    padding-top: 2%;
+    height: 200px;
+  }
 
   .fa-arrow-up{
     position: fixed;
@@ -1737,10 +1748,21 @@ max-width: 85%;
 
   .col15{margin-bottom: 6%;}
 
+  .col17{
+    width: 90%;
+  }
+
+  .col18{ 
+    width: 90%;
+  }
+
+  .col19{
+    width: 90%;
+  }
   
 
   .col22{
-    width: 80%;
+    width: 90%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1752,7 +1774,7 @@ max-width: 85%;
 
   .col23{ 
 
-    width: 80%;
+    width: 90%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1762,7 +1784,7 @@ max-width: 85%;
 
   .col24{
 
-    width: 80%;
+    width: 90%;
     margin-top: 4%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1790,18 +1812,6 @@ max-width: 85%;
   }
 
   .col15{margin-left: 5%; margin-right: 5%;}
-
-  .col17{
-    width: 90%;
-  }
-
-  .col18{ 
-    width: 90%;
-  }
-
-  .col19{
-    width: 90%;
-  }
   
 }
 
@@ -1822,11 +1832,5 @@ max-width: 85%;
   .col7:hover{max-width: 90%;}
 
   .col8:hover{max-width: 90%;}
-
-  .col22{width: 90%;}
-
-  .col23{width: 90%;}
-
-  .col24{width: 90%;}
 
 }
