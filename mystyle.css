@@ -1,35 +1,45 @@
-body{
+body {
 
   background-color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+  -webkit-animation: fadein .5s;
+  /* Safari, Chrome and Opera > 12.1 */
 
 }
 
 @-webkit-keyframes fadein {
-  from { opacity: 0.1; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-html{
+html {
 
   scroll-behavior: smooth;
 
 }
 
 * {
-  
-  box-sizing:border-box;
+
+  box-sizing: border-box;
 
 }
-a, a:hover, a:visited, a:active {
+
+a,
+a:hover,
+a:visited,
+a:active {
   color: inherit;
   text-decoration: none;
- }
+}
 
-.cont{
+.cont {
   margin: 0 auto;
-  max-width:80%;
+  max-width: 80%;
 
 }
 
@@ -45,7 +55,7 @@ a, a:hover, a:visited, a:active {
 
 }
 
-.columns2{
+.columns2 {
 
   background-color: darkblue;
   height: 60px;
@@ -58,14 +68,14 @@ a, a:hover, a:visited, a:active {
 
 }
 
-.columns3{
-padding: 5% 0 5% 0;
-color: yellow;
-background-color: darkblue;
+.columns3 {
+  padding: 5% 0 5% 0;
+  color: yellow;
+  background-color: darkblue;
 
 }
 
-.columns4{
+.columns4 {
   display: flex;
   text-align: center;
   background-color: darkblue;
@@ -75,7 +85,7 @@ background-color: darkblue;
 }
 
 
-.columns5{
+.columns5 {
   display: flex;
   text-align: center;
   background-color: darkblue;
@@ -85,30 +95,30 @@ background-color: darkblue;
   min-height: 400px;
 }
 
-h2{
+h2 {
 
   color: white;
   text-shadow: 2px 2px 8px black;
 
 }
 
-.columns6{
+.columns6 {
   text-shadow: 2px 2px 8px black;
   background-color: darkblue;
   color: white;
   font-size: 30px;
   text-align: center;
   padding: 5% 2% 5% 2%;
-  
+
 }
 
-.columns7{
+.columns7 {
   padding: 2% 0 2% 0;
   background-color: darkblue;
 
 }
 
-.columns8{
+.columns8 {
   padding: 5% 0 5% 0;
   display: flex;
   text-align: center;
@@ -120,23 +130,23 @@ h2{
 
 }
 
-.columns9{
+.columns9 {
   padding: 2% 0 2% 0;
   text-align: center;
   background-color: yellow;
   color: darkblue;
-  text-shadow: 2px 2px 8px  rgb(0, 0, 110);
+  text-shadow: 2px 2px 8px rgb(0, 0, 110);
   font-weight: bold;
   margin: 0% 0 5% 0;
 }
 
-.col14{
+.col14 {
   padding: 1% 0;
 
 }
 
 
-.span1{
+.span1 {
   cursor: pointer;
   word-spacing: normal;
   display: inline-block;
@@ -158,7 +168,7 @@ h2{
 }
 
 
-.span3{
+.span3 {
   color: white;
   font-size: 16px;
   vertical-align: middle;
@@ -166,7 +176,7 @@ h2{
 }
 
 
-.col2{
+.col2 {
   padding-top: 6%;
   overflow: hidden;
   width: 140%;
@@ -175,7 +185,7 @@ h2{
 
 }
 
-.col5{
+.col5 {
   color: white;
   text-shadow: 2px 2px 8px black;
   box-shadow: 6px 6px 6px black;
@@ -190,7 +200,7 @@ h2{
 
 }
 
-.col5:hover{
+.col5:hover {
   color: black;
   text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
   transition-timing-function: ease;
@@ -201,7 +211,7 @@ h2{
 
 }
 
-.p2{
+.p2 {
   padding: 1%;
   border: white 2px solid;
   margin-left: 20%;
@@ -209,7 +219,8 @@ h2{
   font-size: 18px;
 }
 
-.columns4 > *:hover .p2 , .columns5 > *:hover .p2{
+.columns4>*:hover .p2,
+.columns5>*:hover .p2 {
 
   border: black 3px solid;
   color: black;
@@ -217,7 +228,7 @@ h2{
 
 }
 
-.col6{
+.col6 {
   color: white;
   text-shadow: 2px 2px 8px black;
   box-shadow: 6px 6px 6px black;
@@ -227,21 +238,22 @@ h2{
   padding: 2% 2% 2% 2%;
   background-image: url(zelenikarton.webp);
   border-radius: 5%;
-} 
+}
 
-  .ul1{
-    font-weight: bold;
-    font-size: 18px;
+.ul1 {
+  font-weight: bold;
+  font-size: 18px;
 
-  }
-  li .span2{
+}
 
-    position: relative;
-    left: -7%;
+li .span2 {
 
-  }
+  position: relative;
+  left: -7%;
 
-.col6:hover{
+}
+
+.col6:hover {
   color: black;
   text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
   transition-timing-function: ease;
@@ -249,11 +261,11 @@ h2{
   margin: 0% 7% 2% 4%;
   width: 37.5%;
   cursor: pointer;
-  
+
 
 }
 
-.col7{
+.col7 {
   color: white;
   text-shadow: 2px 2px 8px black;
   box-shadow: 6px 6px 6px black;
@@ -262,11 +274,11 @@ h2{
   padding: 2% 2% 2% 2%;
   display: block;
   background-image: url(registracijavozila.jpg);
-  background-size:cover;
+  background-size: cover;
   border-radius: 5%;
-} 
+}
 
-.col7:hover{
+.col7:hover {
   color: black;
   text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
   transition-timing-function: ease;
@@ -277,7 +289,7 @@ h2{
 
 }
 
-.col8{
+.col8 {
   color: white;
   text-shadow: 2px 2px 8px black;
   box-shadow: 6px 6px 6px black;
@@ -290,7 +302,7 @@ h2{
   border-radius: 5%;
 }
 
-.col8:hover{
+.col8:hover {
   color: black;
   text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
   transition-timing-function: ease;
@@ -301,8 +313,7 @@ h2{
 
 }
 
-
-.col9{
+.col9 {
   max-width: 88%;
   margin: 0 auto;
   box-shadow: 8px 8px 7px black;
@@ -315,7 +326,7 @@ h2{
 
 }
 
-.col10{
+.col10 {
   background-color: darkblue;
   border: 2px solid rgb(0, 0, 110);
   color: white;
@@ -330,7 +341,7 @@ h2{
 }
 
 
-.col12{
+.col12 {
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
   background-image: url(kartica.jpg);
@@ -343,7 +354,7 @@ h2{
 
 }
 
-.col13{
+.col13 {
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
   background-image: url(cekovi.jpg);
@@ -354,9 +365,16 @@ h2{
   background-position: center;
 }
 
-/* *//* *//* *//* *//* *//* *//* *//* paragraph */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* paragraph */
 
-p{
+p {
   font-size: 18px;
   font-weight: bold;
   color: white;
@@ -365,25 +383,25 @@ p{
 }
 
 
-.fa-arrow-up{
-    position: fixed;
-    top: 85%;
-    left: 90%;
-    color: white;
-    background-color: darkblue;
-    padding: 1.75%;
-    border:white double 2px;
-    border-radius: 50%;
-    font-weight: bold;
+.fa-arrow-up {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  color: white;
+  background-color: darkblue;
+  padding: 1.75%;
+  border: white double 2px;
+  border-radius: 50%;
+  font-weight: bold;
 }
 
-.fa-instagram{
+.fa-instagram {
   font-size: 30px;
-  background: #f09433; 
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
   color: pink;
   font-weight: bold;
   padding: 1% 3% 1% 3%;
@@ -391,7 +409,7 @@ p{
 
 }
 
-.fa-facebook{
+.fa-facebook {
   font-size: 30px;
   color: white;
   background-color: darkblue;
@@ -401,36 +419,36 @@ p{
   vertical-align: middle;
 }
 
-.fa-phone-square{
+.fa-phone-square {
   font-size: 30px;
   cursor: pointer;
   font-weight: bold;
-  color:white;
-  background-color:darkblue;
+  color: white;
+  background-color: darkblue;
   padding: .5% 4% 1% 4%;
   margin-right: 5%;
   vertical-align: middle;
 }
 
-.fa-automobile1{
+.fa-automobile1 {
   border: white solid 4px;
   padding: 1%;
   color: white;
   border-radius: 50%;
   margin-right: 2%;
-  
+
 }
 
-.fa-automobile2{
+.fa-automobile2 {
   border: white solid 4px;
   padding: 1%;
   color: white;
   border-radius: 50%;
   margin-left: 2%;
-  
+
 }
 
-.fa-gears1{
+.fa-gears1 {
   text-shadow: none;
   border: darkblue double 10px;
   padding: 2%;
@@ -440,7 +458,7 @@ p{
 
 }
 
-.fa-bus1{
+.fa-bus1 {
   text-shadow: none;
   border: darkblue double 10px;
   padding: 2% 2.90% 2% 2.9%;
@@ -450,7 +468,7 @@ p{
 
 }
 
-.fa-automobile3{
+.fa-automobile3 {
   text-shadow: none;
   border: darkblue double 10px;
   padding: 2%;
@@ -460,7 +478,7 @@ p{
 
 }
 
-.fa-handshake-o1{
+.fa-handshake-o1 {
   text-shadow: none;
   border: darkblue double 10px;
   padding: 2.5% 2% 2.5% 2%;
@@ -470,17 +488,17 @@ p{
 
 }
 
-.fa-credit-card1{
+.fa-credit-card1 {
 
   margin-right: 2%;
 }
 
-.fa-credit-card2{
+.fa-credit-card2 {
 
   margin-left: 2%;
 }
 
-.logo{
+.logo {
   max-width: 30%;
   padding-top: 0.5%;
   padding-left: 0.5%;
@@ -489,7 +507,7 @@ p{
 /* Slideshow container */
 .slideshow-container {
   margin: 0 auto;
-  max-width:80%;
+  max-width: 80%;
   position: relative;
   margin: auto;
   background-color: darkblue;
@@ -500,13 +518,14 @@ p{
   display: none;
 }
 
-.mySlides1{
+.mySlides1 {
   display: block;
   z-index: -1;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -529,7 +548,8 @@ p{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   background-color: darkblue;
   color: white;
 }
@@ -562,13 +582,13 @@ p{
 
   font-size: 30px;
   padding-top: 5%;
-  padding-left:1%;
+  padding-left: 1%;
   padding-right: 1%;
 }
 
-.p1{
+.p1 {
   font-size: 25px;
-  margin-left:2%;
+  margin-left: 2%;
   margin-right: 2%;
   margin-top: 5%;
 }
@@ -582,28 +602,33 @@ p{
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
-img{
+img {
   max-width: 100%;
   max-height: 500px;
-  
-}
-
-.columns10{
-    border-top: 5px solid rgb(0, 0, 95);
-    font-weight: bold;
-    text-align: center;
-    margin: 0% 0 0% 0;
-    padding: 6% 0 2% 0;
-    color: darkblue;
-    background-color: darkblue;
 
 }
 
-.radnovreme{
+.columns10 {
+  border-top: 5px solid rgb(0, 0, 95);
+  font-weight: bold;
+  text-align: center;
+  margin: 0% 0 0% 0;
+  padding: 6% 0 2% 0;
+  color: darkblue;
+  background-color: darkblue;
+
+}
+
+.radnovreme {
   min-height: 200px;
   background-color: darkblue;
   padding: 2% 0 2% 0;
@@ -613,7 +638,7 @@ img{
 }
 
 
-.col15{
+.col15 {
 
   box-shadow: 6px 6px 6px black;
   padding: 2% 0 2% 0;
@@ -627,19 +652,19 @@ img{
   font-size: 30px;
 }
 
-.marker1{
+.marker1 {
   margin-right: 2%;
 }
 
-.marker2{
+.marker2 {
   margin-left: 2%;
 }
 
-.col16{
-background-color: darkblue;
+.col16 {
+  background-color: darkblue;
 }
 
-.col17{
+.col17 {
   padding-top: 2%;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
@@ -653,7 +678,7 @@ background-color: darkblue;
 
 }
 
-.col18{
+.col18 {
   padding-top: 2%;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
@@ -665,7 +690,7 @@ background-color: darkblue;
   text-shadow: 2px 2px 8px black;
 }
 
-.col19{
+.col19 {
   padding-top: 2%;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
@@ -676,19 +701,19 @@ background-color: darkblue;
   border: 2px solid rgb(0, 0, 110);
   color: white;
   text-shadow: 2px 2px 8px black;
-  
+
 }
 
-.col20{
+.col20 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
 }
 
-.col21{
+.col21 {
 
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -698,25 +723,25 @@ background-color: darkblue;
 
 }
 
-#telefon{
+#telefon {
 
   margin-right: 10%;
 
 }
 
-.fa-phone{
+.fa-phone {
 
   margin-right: 2%;
 
 }
 
-.fa-clock-o{
+.fa-clock-o {
 
   margin-right: 2%;
 
 }
 
-.fa-envelope{
+.fa-envelope {
 
   margin-right: 2%;
 
@@ -725,10 +750,10 @@ background-color: darkblue;
 .fa-map-marker {
 
   margin-right: 2%;
-  
+
 }
 
-.kontakt{
+.kontakt {
   border: 2px solid rgb(0, 0, 110);
   padding: 2% 0;
   background-color: darkblue;
@@ -736,7 +761,9 @@ background-color: darkblue;
 
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   background-color: white;
@@ -777,14 +804,14 @@ input[type=submit]:hover {
 
 .topnav {
   overflow: hidden;
-  transition:  300ms linear;
+  transition: 300ms linear;
   background-color: darkblue;
   transition: 0.5s;
 }
 
 .topnav a {
   overflow: hidden;
-  transition:  300ms linear;
+  transition: 300ms linear;
   float: left;
   display: block;
   color: white;
@@ -798,7 +825,7 @@ input[type=submit]:hover {
 
 .topnav a:hover {
   overflow: hidden;
-  transition:  300ms linear;
+  transition: 300ms linear;
   background-color: darkblue;
   text-shadow: 2px 2px 8px black;
 }
@@ -813,7 +840,7 @@ input[type=submit]:hover {
   margin-left: 3%;
 }
 
-.tehnicki1{
+.tehnicki1 {
   border: 2px solid rgb(0, 0, 110);
   padding: 2%;
   text-align: left;
@@ -822,7 +849,7 @@ input[type=submit]:hover {
 
 }
 
-.tehnicki1 h2{
+.tehnicki1 h2 {
   width: 50%;
   background-color: darkblue;
   border: 2px solid rgb(0, 0, 110);
@@ -831,36 +858,36 @@ input[type=submit]:hover {
 
 }
 
-  .tehnicki1 p:nth-child(1){
-    padding: 12% 4% 0 4%;
-    color: white;
-    line-height: 2;
-    text-shadow: 2px 2px 8px black;
+.tehnicki1 p:nth-child(1) {
+  padding: 12% 4% 0 4%;
+  color: white;
+  line-height: 2;
+  text-shadow: 2px 2px 8px black;
 
 
-  }
+}
 
-  .tehnicki1 > div:nth-of-type(1){
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
-    background-image: url(tehnicki1.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 300px;
+.tehnicki1>div:nth-of-type(1) {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  background-image: url(tehnicki1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
 
-  }
+}
 
-  .tehnicki1 > div:nth-of-type(2){
+.tehnicki1>div:nth-of-type(2) {
   display: table;
   padding: 2%;
   margin: 0% 0% 0% 4%;
   color: red;
   background-color: white;
 
-  }
+}
 
-.tehnicki1 li{
+.tehnicki1 li {
   color: white;
   text-shadow: 2px 2px 8px black;
   font-size: 20px;
@@ -870,132 +897,135 @@ input[type=submit]:hover {
 
 
 
-@media only screen and (max-width: 3000px) and (min-width: 1900px)  {
+@media only screen and (max-width: 3000px) and (min-width: 1900px) {
 
-.cont{
+  .cont {
 
-  max-width: 1500px;
+    max-width: 1500px;
 
-}
+  }
 
-img{
+  img {
 
-  max-width: 1500px;
+    max-width: 1500px;
 
-}
+  }
 
-.slideshow-container{
+  .slideshow-container {
 
-  max-width: 1500px;
+    max-width: 1500px;
 
-}
-
-}
-
-@media only screen and (max-width: 1200px){
-
-.text{
-
-  box-shadow: 6px 6px 6px black;
-  padding-top: 2%;
-  position: absolute;
-  bottom: 10%;
-  right: 55%;
-  width: 100%;
-  text-align: center;
-  font-size: 20px;
-  width: 35%;
-  height: 150px;
-  border-radius: 5%;
-  margin: 0 2%;
+  }
 
 }
 
-.text2{
+@media only screen and (max-width: 1200px) {
 
-  padding-top: 5%;
+  .text {
 
+    box-shadow: 6px 6px 6px black;
+    padding-top: 2%;
+    position: absolute;
+    bottom: 10%;
+    right: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    width: 35%;
+    height: 150px;
+    border-radius: 5%;
+    margin: 0 2%;
 
-}
+  }
 
-.p1{
+  .text2 {
 
-  font-size: 19px;
-
-}
-
-.columns6{
-
-  font-size: 24px;
-
-}
-
-.col9{
-
-max-width: 85%;
-
-}
-
-.col10{
-
-  font-size: 24px;
+    padding-top: 5%;
 
 
-}
+  }
 
-.columns8{
+  .p1 {
 
-  min-height: 350px;
+    font-size: 19px;
 
-}
+  }
 
-.col14{
+  .columns6 {
 
-  padding-top: 1%;
+    font-size: 24px;
 
-}
+  }
 
-.fa-level-up-alt{
+  .col9 {
 
-  position: fixed;
+    max-width: 85%;
+
+  }
+
+  .col10 {
+
+    font-size: 24px;
+
+
+  }
+
+  .columns8 {
+
+    min-height: 350px;
+
+  }
+
+  .col14 {
+
+    padding-top: 1%;
+
+  }
+
+  .fa-level-up-alt {
+
+    position: fixed;
     top: 85%;
     left: 91%;
 
+  }
+
+  .col15 {
+
+    box-shadow: 6px 6px 6px black;
+    padding: 2% 0 2% 0;
+    margin: 2% 25% 2% 25%;
+    text-align: center;
+    background-color: darkblue;
+    border: 2px solid rgb(0, 0, 110);
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .fa-arrow-up {
+    position: fixed;
+    top: 85%;
+    left: 80%;
+    color: white;
+    background-color: darkblue;
+    padding: 2%;
+    border: white double 2px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
 }
 
-.col15{
-
-  box-shadow: 6px 6px 6px black;
-  padding: 2% 0 2% 0;
-  margin: 2% 25% 2% 25%;
-  text-align: center;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
-  color: white;
-  text-shadow: 2px 2px 8px black;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.fa-arrow-up{
-  position: fixed;
-  top: 85%;
-  left: 80%;
-  color: white;
-  background-color: darkblue;
-  padding: 2%;
-  border:white double 2px;
-  border-radius: 50%;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-}
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
 
 
-  .topnav a:not(:last-child) {display: none;}
+  .topnav a:not(:last-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     overflow: hidden;
     float: right;
@@ -1004,7 +1034,10 @@ max-width: 85%;
 
 
 
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     font-size: 18px;
     color: white;
@@ -1016,6 +1049,7 @@ max-width: 85%;
     margin-left: 3%;
     border: none;
   }
+
   .topnav.responsive a {
     border: 1px solid rgb(0, 0, 104);
     overflow: hidden;
@@ -1025,9 +1059,11 @@ max-width: 85%;
     font-size: 18px;
   }
 
-  .span4{display: none;}
+  .span4 {
+    display: none;
+  }
 
-  .col2{
+  .col2 {
     width: 100%;
     font-size: 24px;
     padding-top: 7.5%;
@@ -1039,127 +1075,131 @@ max-width: 85%;
 
   }
 
-  .logo{
+  .logo {
 
     max-width: 36%;
 
   }
 
 
-  .fa-phone-square{
+  .fa-phone-square {
 
     margin-right: 2.5%;
 
   }
 
-  .fa-facebook{
-    
+  .fa-facebook {
+
     margin-left: 2.5%;
   }
 
-  .fa-automobile1{
-  
-  border: darkblue double 8px;
-  
-  }
-  
-  .fa-automobile2{
-  
-    border: darkblue double 8px;
-    
-    }
+  .fa-automobile1 {
 
-    .text{
-      box-shadow: 6px 6px 6px black;
-      padding-top: 1%;
-      padding-bottom: 2%;
-      position: absolute;
-      bottom: 10%;
-      right: 55%;
-      width: 100%;
-      text-align: center;
-      font-size: 20px;
-      width: 35%;
-      height: 150px;
-      border-radius: 5%;
-      margin: 0 1%;
-    
-    }
-    
-    
-    .p1{
-    
-      font-size: 18px;
-    
-    }
-    
-    
-    .col9{
+    border: darkblue double 8px;
+
+  }
+
+  .fa-automobile2 {
+
+    border: darkblue double 8px;
+
+  }
+
+  .text {
+    box-shadow: 6px 6px 6px black;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    position: absolute;
+    bottom: 10%;
+    right: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    width: 35%;
+    height: 150px;
+    border-radius: 5%;
+    margin: 0 1%;
+
+  }
+
+
+  .p1 {
+
+    font-size: 18px;
+
+  }
+
+
+  .col9 {
     padding-top: 0;
     max-width: 85%;
-    
-    }
-    
-    .col5{
 
-      background-position: top;
+  }
 
-    }
+  .col5 {
 
-    .col7{
+    background-position: top;
 
-      background-position: center;
+  }
 
-    }
+  .col7 {
 
-    .col8{
+    background-position: center;
 
-      background-position: center;
+  }
 
-    }
+  .col8 {
 
-    .col10{
+    background-position: center;
 
-      font-size: 20px;
-    
-    }
+  }
 
-    .columns8{
+  .col10 {
 
-      min-height: 300px;
-    
-    }
+    font-size: 20px;
 
-    .col17{ width: 20%;}
+  }
 
-    .col18{width: 30%;}
+  .columns8 {
 
-    .col19{
+    min-height: 300px;
 
-      width: 35%;
+  }
 
-    }
+  .col17 {
+    width: 20%;
+  }
+
+  .col18 {
+    width: 30%;
+  }
+
+  .col19 {
+
+    width: 35%;
+
+  }
 
 }
 
-@media only screen and (max-width: 790px){
+@media only screen and (max-width: 790px) {
 
-  .fa-facebook{
+  .fa-facebook {
     padding: 2.75% 5% 2% 5%;
 
   }
-  
-  .fa-instagram{
+
+  .fa-instagram {
     padding: 2.5% 4% 2% 4%;
   }
 
-  .fa-phone-square{
+  .fa-phone-square {
 
     padding: 2.5% 4% 2% 4%;
 
   }
 
-  .col2{
+  .col2 {
     font-size: 24px;
     padding-top: 10%;
     overflow: hidden;
@@ -1170,18 +1210,18 @@ max-width: 85%;
   }
 
 
-  .logo{
+  .logo {
 
     max-width: 50%;
 
   }
 
-  .cont{
+  .cont {
 
     max-width: 100%;
   }
 
-  .slideshow-container{
+  .slideshow-container {
 
     max-width: 100%;
 
@@ -1189,12 +1229,13 @@ max-width: 85%;
 
 
 
-  .text{
+  .text {
     display: none;
 
   }
 
-  .prev , .next {
+  .prev,
+  .next {
 
     display: none;
 
@@ -1202,20 +1243,20 @@ max-width: 85%;
 
 
 
-  h1{
+  h1 {
 
     font-size: 24px;
 
   }
 
-  .fa-arrow-up{
+  .fa-arrow-up {
     position: fixed;
     top: 80%;
     left: 90%;
     color: white;
     background-color: darkblue;
     padding: 2%;
-    border:white double 2px;
+    border: white double 2px;
     border-radius: 50%;
     font-weight: bold;
     font-size: 18px;
@@ -1223,68 +1264,68 @@ max-width: 85%;
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
   .topnav a {
-  
+
     padding: 4% 4%;
 
   }
 
-  .col2{
+  .col2 {
     font-size: 18px
   }
-  
-  .fa-automobile1{
-  
-  border: darkblue double 8px;
-  
-  }
-  
-  .fa-automobile2{
-  
+
+  .fa-automobile1 {
+
     border: darkblue double 8px;
-    
-    }
-    
-    .col9{
+
+  }
+
+  .fa-automobile2 {
+
+    border: darkblue double 8px;
+
+  }
+
+  .col9 {
     background-size: cover;
     background-position: left;
     max-width: 85%;
-    
-    }
-    
 
-    .col10{
-      margin: 0% 20% 0% 20%;
-      font-size: 20px;
-    
-    }
+  }
 
-    .columns8{
 
-      min-height: 300px;
-    
-    }
-    
-    .p3{
+  .col10 {
+    margin: 0% 20% 0% 20%;
+    font-size: 20px;
 
-      font-size: 16px;
+  }
 
-    }
+  .columns8 {
+
+    min-height: 300px;
+
+  }
+
+  .p3 {
+
+    font-size: 16px;
+
+  }
 
 
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 660px) {
 
-  .span3{
+  .span3 {
     display: none;
   }
-  
 
 
-  .col2{
+
+  .col2 {
     font-size: 24px;
     word-spacing: 25px;
     overflow: hidden;
@@ -1293,13 +1334,13 @@ max-width: 85%;
     text-align: left;
     width: 100%;
     margin-left: 0;
-    margin-right:  0;
+    margin-right: 0;
 
   }
 
 
 
-  .columns4{
+  .columns4 {
     padding: 0;
     margin: 0;
     column-count: 1;
@@ -1308,7 +1349,7 @@ max-width: 85%;
 
   }
 
-  .columns5{
+  .columns5 {
     padding: 0;
     margin: 0;
     column-count: 1;
@@ -1316,15 +1357,15 @@ max-width: 85%;
 
   }
 
-  .columns6{
-    padding: 2% 2% 4% 2% ;
+  .columns6 {
+    padding: 2% 2% 4% 2%;
     margin: 0;
     column-count: 1;
     display: block;
 
   }
 
-  .col5{
+  .col5 {
     color: white;
     text-shadow: 2px 2px 8px black;
     box-shadow: 6px 6px 6px black;
@@ -1337,10 +1378,10 @@ max-width: 85%;
     padding: 2% 2% 2% 2%;
     background-image: url(tehnickipregled.jpg);
     min-height: 275px;
-  
+
   }
-  
-  .col5:hover{
+
+  .col5:hover {
     color: black;
     text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
     transition-timing-function: ease;
@@ -1352,10 +1393,10 @@ max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
-  
+
   }
-  
-  .col6{
+
+  .col6 {
     color: white;
     text-shadow: 2px 2px 8px black;
     box-shadow: 6px 6px 6px black;
@@ -1368,9 +1409,9 @@ max-width: 85%;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
     min-height: 275px;
-  } 
-  
-  .col6:hover{
+  }
+
+  .col6:hover {
     color: black;
     text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
     transition-timing-function: ease;
@@ -1382,17 +1423,17 @@ max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
-  
+
   }
-  
-  .col7{
+
+  .col7 {
     color: white;
     text-shadow: 2px 2px 8px black;
     box-shadow: 6px 6px 6px black;
     width: 80%;
     display: block;
     background-image: url(registracijavozila.jpg);
-    background-size:cover;
+    background-size: cover;
     border-radius: 5%;
     margin-top: 2%;
     margin-bottom: 4%;
@@ -1400,9 +1441,9 @@ max-width: 85%;
     margin-right: auto;
     padding: 2% 2% 2% 2%;
     min-height: 275px;
-  } 
-  
-  .col7:hover{
+  }
+
+  .col7:hover {
     color: black;
     text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
     transition-timing-function: ease;
@@ -1416,8 +1457,8 @@ max-width: 85%;
     padding: 2% 2% 2% 2%;
 
   }
-  
-  .col8{
+
+  .col8 {
     color: white;
     text-shadow: 2px 2px 8px black;
     box-shadow: 6px 6px 6px black;
@@ -1433,8 +1474,8 @@ max-width: 85%;
     padding: 4% 2% 4% 2%;
     min-height: 275px;
   }
-  
-  .col8:hover{
+
+  .col8:hover {
     color: black;
     text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
     transition-timing-function: ease;
@@ -1449,50 +1490,38 @@ max-width: 85%;
 
   }
 
-  .col10{
+  .col10 {
 
     font-size: 18px;
-  
+
   }
 
 
-  .col15{
+  .col15 {
 
     font-size: 20px;
 
   }
 
-  .col14{
+  .col14 {
     font-size: 10px;
     padding: 1% 0;
 
   }
 
-   .radnovreme{
+  .radnovreme {
 
-      font-weight: bold;
-      color: white;
-      text-shadow: 2px 2px 8px black;
-      background-color: darkblue  ;
-      display: block;
-      text-align: center;
-      padding: 2% 0 2% 0;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    background-color: darkblue;
+    display: block;
+    text-align: center;
+    padding: 2% 0 2% 0;
 
-   }
+  }
 
-   .col17{
-
-    width: 60%;
-    margin-top: 4%;
-    margin-bottom: 8%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 2% 2% 2%;
-
-
-   }
-
-   .col18{
+  .col17 {
 
     width: 60%;
     margin-top: 4%;
@@ -1502,9 +1531,9 @@ max-width: 85%;
     padding: 2% 2% 2% 2%;
 
 
-   }
+  }
 
-   .col19{
+  .col18 {
 
     width: 60%;
     margin-top: 4%;
@@ -1514,20 +1543,32 @@ max-width: 85%;
     padding: 2% 2% 2% 2%;
 
 
-   }
+  }
 
-   .iframe2{  
+  .col19 {
+
+    width: 60%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2%;
+
+
+  }
+
+  .iframe2 {
     height: 300px;
   }
 
-   .fa-arrow-up{
+  .fa-arrow-up {
     position: fixed;
     top: 80%;
     left: 85%;
     color: white;
     background-color: darkblue;
     padding: 3%;
-    border:white double 2px;
+    border: white double 2px;
     border-radius: 50%;
     font-weight: bold;
     font-size: 18px;
@@ -1536,15 +1577,15 @@ max-width: 85%;
 
 }
 
-@media only screen and (max-width: 520px){
+@media only screen and (max-width: 520px) {
 
-  .logo{
+  .logo {
 
     max-width: 60%;
 
   }
 
-  .col2{
+  .col2 {
     font-size: 24px;
     padding-top: 12%;
     word-spacing: 20px;
@@ -1552,30 +1593,30 @@ max-width: 85%;
     float: none;
     display: block;
     text-align: left;
-    
+
 
   }
 
 
-  .col10{
+  .col10 {
     margin: 4% 10% 0% 10%;
     font-size: 18px;
-    
-  
+
+
   }
 
-  .columns8{
+  .columns8 {
     display: inherit;
     column-count: 1;
     padding: 5% 0 5% 0;
     text-align: center;
     background-color: darkblue;
 
-  
-  
+
+
   }
 
-  .col12{
+  .col12 {
     margin-top: 2%;
     margin-bottom: 8%;
     margin-left: auto;
@@ -1584,10 +1625,10 @@ max-width: 85%;
     width: 80%;
     background-position: center;
     min-height: 200px;
-  
+
   }
-  
-  .col13{
+
+  .col13 {
     margin-top: 8%;
     margin-bottom: 2%;
     margin-left: auto;
@@ -1598,26 +1639,26 @@ max-width: 85%;
     min-height: 200px;
   }
 
-  .col15{
+  .col15 {
     margin: 2% 15% 2% 15%;
   }
 
-  .tehnicki1 h2{
+  .tehnicki1 h2 {
     width: 90%;
-  
+
   }
 
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
-  .columns7{
+  .columns7 {
     padding: 2% 0 4% 0;
     background-color: darkblue;
-  
+
   }
 
-  .col2{
+  .col2 {
     font-size: 24px;
     padding-top: 12%;
     word-spacing: 20px;
@@ -1625,47 +1666,47 @@ max-width: 85%;
     float: none;
     display: block;
     text-align: left;
-    
+
 
   }
 
-  .fa-instagram{
+  .fa-instagram {
     font-size: 22px;
   }
-  
-  .fa-facebook{
-    font-size: 22px;
-  }
-  
-  .fa-phone-square{
-    font-size: 22px;
-  }
-  
 
-  .col15{
+  .fa-facebook {
+    font-size: 22px;
+  }
+
+  .fa-phone-square {
+    font-size: 22px;
+  }
+
+
+  .col15 {
     font-size: 18px;
 
   }
 
-  .iframe2{  
+  .iframe2 {
     padding-top: 2%;
     height: 200px;
   }
 
-  .fa-arrow-up{
+  .fa-arrow-up {
     position: fixed;
     top: 80%;
     left: 82%;
     color: white;
     background-color: darkblue;
     padding: 4%;
-    border:white double 2px;
+    border: white double 2px;
     border-radius: 50%;
     font-weight: bold;
     font-size: 18px;
   }
 
-  .col17{
+  .col17 {
     width: 80%;
     margin-top: 4%;
     margin-bottom: 8%;
@@ -1676,7 +1717,7 @@ max-width: 85%;
 
   }
 
-  .col18{ 
+  .col18 {
 
     width: 80%;
     margin-top: 4%;
@@ -1686,7 +1727,7 @@ max-width: 85%;
     padding: 2% 2% 2% 2%;
   }
 
-  .col19{
+  .col19 {
 
     width: 80%;
     margin-top: 4%;
@@ -1697,47 +1738,47 @@ max-width: 85%;
 
   }
 
-  
-  .tehnicki1 h2{
+
+  .tehnicki1 h2 {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-  
-  }
-  
-  .tehnicki1 p:nth-child(1){
 
   }
-  
+
+  .tehnicki1 p:nth-child(1) {}
+
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 360px) {
 
-  .col2{
+  .col2 {
 
     font-size: 20px;
-    
+
   }
 
-  .col15{margin-bottom: 6%;}
+  .col15 {
+    margin-bottom: 6%;
+  }
 
-  .col17{
+  .col17 {
     width: 90%;
   }
 
-  .col18{ 
+  .col18 {
     width: 90%;
   }
 
-  .col19{
+  .col19 {
     width: 90%;
   }
 
 }
 
-@media only screen and (max-width:330px){
+@media only screen and (max-width:330px) {
 
-  .col2{
+  .col2 {
 
     font-size: 24px;
     padding-top: 10%;
@@ -1748,29 +1789,48 @@ max-width: 85%;
     text-align: left;
     width: 100%;
     margin-left: 0;
-    margin-right:  0;
+    margin-right: 0;
   }
 
-  .col15{margin-left: 5%; margin-right: 5%;}
-  
+  .col15 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
 }
 
-@media only screen and (max-width: 281px){
+@media only screen and (max-width: 281px) {
 
-  .col5{max-width: 85%;}
+  .col5 {
+    max-width: 85%;
+  }
 
-  .col6{max-width: 85%;}
+  .col6 {
+    max-width: 85%;
+  }
 
-  .col7{max-width: 85%;}
+  .col7 {
+    max-width: 85%;
+  }
 
-  .col8{max-width: 85%;}
+  .col8 {
+    max-width: 85%;
+  }
 
-  .col5:hover{max-width: 90%;}
+  .col5:hover {
+    max-width: 90%;
+  }
 
-  .col6:hover{max-width: 90%;}
+  .col6:hover {
+    max-width: 90%;
+  }
 
-  .col7:hover{max-width: 90%;}
+  .col7:hover {
+    max-width: 90%;
+  }
 
-  .col8:hover{max-width: 90%;}
+  .col8:hover {
+    max-width: 90%;
+  }
 
 }
