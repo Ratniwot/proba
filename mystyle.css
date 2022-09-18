@@ -178,7 +178,7 @@ h2{
 .col5{
   color: white;
   text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   width: 35%;
   display: block;
   margin: 0% 4% 2% 8%;
@@ -220,7 +220,7 @@ h2{
 .col6{
   color: white;
   text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   width: 35%;
   margin: 0% 8% 2% 4%;
   display: block;
@@ -256,7 +256,7 @@ h2{
 .col7{
   color: white;
   text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   width: 35%;
   margin: 0% 4% 2% 8%;
   padding: 2% 2% 2% 2%;
@@ -280,7 +280,7 @@ h2{
 .col8{
   color: white;
   text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   width: 35%;
   margin: 0% 8% 2% 4%;
   padding: 2% 2% 2% 2%;
@@ -320,7 +320,7 @@ h2{
   border: 2px solid rgb(0, 0, 110);
   color: white;
   text-shadow: 2px 2px 8px black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   padding: 2% 0 2% 0;
   margin: 0% 30% 0% 30%;
   text-align: center;
@@ -332,7 +332,7 @@ h2{
 
 .col12{
   font-weight: bold;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   background-image: url(kartica.jpg);
   background-size: cover;
   margin: 0 0 0 7.5%;
@@ -345,7 +345,7 @@ h2{
 
 .col13{
   font-weight: bold;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   background-image: url(cekovi.jpg);
   background-size: cover;
   margin: 0 7.5% 0 0;
@@ -536,7 +536,7 @@ p{
 
 /* Caption text */
 .text {
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   padding-top: 2%;
   position: absolute;
   bottom: 7.5%;
@@ -615,7 +615,7 @@ img{
 
 .col15{
 
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   padding: 2% 0 2% 0;
   margin: 2% 30% 4% 30%;
   text-align: center;
@@ -635,10 +635,6 @@ img{
   margin-left: 2%;
 }
 
-.mapa{
-  text-align: center;
-}
-
 .col16{
 background-color: darkblue;
 }
@@ -646,7 +642,7 @@ background-color: darkblue;
 .col17{
   padding-top: 2%;
   font-weight: bold;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   margin: 0 0 0 5%;
   text-align: center;
   width: 25%;
@@ -660,7 +656,7 @@ background-color: darkblue;
 .col18{
   padding-top: 2%;
   font-weight: bold;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   text-align: center;
   width: 25%;
   background-color: darkblue;
@@ -672,7 +668,7 @@ background-color: darkblue;
 .col19{
   padding-top: 2%;
   font-weight: bold;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   margin: 0 5% 0 0;
   text-align: center;
   width: 25%;
@@ -726,10 +722,17 @@ background-color: darkblue;
 
 }
 
+.fa-map-marker {
+
+  margin-right: 2%;
+  
+}
+
 .kontakt{
-padding: 2% 0;
-background-color: darkblue;
-text-align: center;
+  border: 2px solid rgb(0, 0, 110);
+  padding: 2% 0;
+  background-color: darkblue;
+  text-align: center;
 
 }
 
@@ -743,7 +746,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
 }
 
 input[type=submit] {
@@ -755,7 +758,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   border: 2px solid black;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
 }
 
 input[type=submit]:hover {
@@ -774,13 +777,14 @@ input[type=submit]:hover {
 
 .topnav {
   overflow: hidden;
-  transition: height 300ms linear;
+  transition:  300ms linear;
   background-color: darkblue;
+  transition: 0.5s;
 }
 
 .topnav a {
   overflow: hidden;
-  transition: height 300ms linear;
+  transition:  300ms linear;
   float: left;
   display: block;
   color: white;
@@ -789,11 +793,12 @@ input[type=submit]:hover {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 .topnav a:hover {
   overflow: hidden;
-  transition: height 300ms linear;
+  transition:  300ms linear;
   background-color: darkblue;
   text-shadow: 2px 2px 8px black;
 }
@@ -822,42 +827,47 @@ input[type=submit]:hover {
   background-color: darkblue;
   border: 2px solid rgb(0, 0, 110);
   padding: 1%;
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
 
 }
 
-.tehnicki1 p:nth-child(1){
-  margin: 1%;
-  padding: 1%;
-  text-align: center;
-  line-height: 2;
-  color: white;
-  text-shadow: 2px 2px 8px black;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
-  box-shadow: 8px 8px 8px black;
+  .tehnicki1 p:nth-child(1){
+    padding: 12% 4% 0 4%;
+    color: white;
+    line-height: 2;
+    text-shadow: 2px 2px 8px black;
 
-}
 
-.div1{
+  }
+
+  .tehnicki1 > div:nth-of-type(1){
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    background-image: url(tehnicki1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+
+  }
+
+  .tehnicki1 > div:nth-of-type(2){
   display: table;
-  padding: 1%;
-  margin: 0% 0% 0% 6%;
+  padding: 2%;
+  margin: 0% 0% 0% 4%;
   color: red;
   background-color: white;
 
-}
+  }
 
 .tehnicki1 li{
   color: white;
   text-shadow: 2px 2px 8px black;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 4%;
   font-size: 20px;
   line-height: 2;
 
 }
+
 
 
 @media only screen and (max-width: 3000px) and (min-width: 1900px)  {
@@ -886,7 +896,7 @@ img{
 
 .text{
 
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   padding-top: 2%;
   position: absolute;
   bottom: 10%;
@@ -955,7 +965,7 @@ max-width: 85%;
 
 .col15{
 
-  box-shadow: 8px 8px 8px black;
+  box-shadow: 6px 6px 6px black;
   padding: 2% 0 2% 0;
   margin: 2% 25% 2% 25%;
   text-align: center;
@@ -1060,7 +1070,7 @@ max-width: 85%;
     }
 
     .text{
-      box-shadow: 8px 8px 8px black;
+      box-shadow: 6px 6px 6px black;
       padding-top: 1%;
       padding-bottom: 2%;
       position: absolute;
@@ -1317,7 +1327,7 @@ max-width: 85%;
   .col5{
     color: white;
     text-shadow: 2px 2px 8px black;
-    box-shadow: 8px 8px 8px black;
+    box-shadow: 6px 6px 6px black;
     width: 80%;
     border-radius: 5%;
     margin-top: 8%;
@@ -1348,7 +1358,7 @@ max-width: 85%;
   .col6{
     color: white;
     text-shadow: 2px 2px 8px black;
-    box-shadow: 8px 8px 8px black;
+    box-shadow: 6px 6px 6px black;
     width: 80%;
     background-image: url(zelenikarton.webp);
     border-radius: 5%;
@@ -1378,7 +1388,7 @@ max-width: 85%;
   .col7{
     color: white;
     text-shadow: 2px 2px 8px black;
-    box-shadow: 8px 8px 8px black;
+    box-shadow: 6px 6px 6px black;
     width: 80%;
     display: block;
     background-image: url(registracijavozila.jpg);
@@ -1410,7 +1420,7 @@ max-width: 85%;
   .col8{
     color: white;
     text-shadow: 2px 2px 8px black;
-    box-shadow: 8px 8px 8px black;
+    box-shadow: 6px 6px 6px black;
     width: 80%;
     display: block;
     background-image: url(prenosvlasnistva.jpg);
@@ -1687,6 +1697,18 @@ max-width: 85%;
 
   }
 
+  
+  .tehnicki1 h2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+  
+  .tehnicki1 p:nth-child(1){
+
+  }
+  
 }
 
 @media only screen and (max-width: 360px){
