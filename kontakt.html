@@ -50,11 +50,11 @@
             <form action="https://formspree.io/f/mknejnqq" method="POST">
             <div class="col20">
                 <input type="text" id="ime" name="ime" placeholder="Vaše ime i prezime" required>
-                <input type="text" id="email" name="email" placeholder="email" required>
+                <input type="text" id="email" name="email" placeholder="email"  pattern="^(([-\w\d]+)(\.[-\w\d]+)*@([-\w\d]+)(\.[-\w\d]+)*(\.([a-zA-Z]{2,5}|[\d]{1,3})){1,2})$" required>
             </div>
             <div class="col21">
-                <input type="text" id="telefon" name="telefon" placeholder="Kontakt telefon" required>
-                <input type="text" id="naslovporuke" name="naslovporuke" placeholder="Naslov poruke" required>
+                <input type="text" id="telefon" name="telefon" placeholder="Kontakt telefon (mora početi sa +381)" pattern="/^(\+381)?(\s|-)?6(([0-6]|[8-9])\d{7}|(77|78)\d{6}){1}$/" required>
+                <input type="text" id="naslovporuke" name="naslovporuke" placeholder="Naslov poruke">
             </div>
               <textarea id="poruka" name="poruka" placeholder="Vaš sadržaj poruke" style="height:80px" required></textarea>
           
