@@ -1,6 +1,7 @@
 body {
 
-  background-color: black;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   -webkit-animation: fadein .5s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -49,7 +50,11 @@ a:active {
 
 .columns1 {
 
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   column-count: 2;
   display: inline-block;
 
@@ -57,7 +62,8 @@ a:active {
 
 .columns2 {
 
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 60px;
   text-align: center;
   display: flex;
@@ -71,14 +77,17 @@ a:active {
 .columns3 {
   padding: 5% 0 5% 0;
   color: yellow;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .columns4 {
   display: flex;
   text-align: center;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   column-count: 2;
   justify-content: space-between;
   min-height: 300px;
@@ -88,7 +97,8 @@ a:active {
 .columns5 {
   display: flex;
   text-align: center;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   column-count: 2;
   justify-content: space-between;
   padding: 0 0 5% 0;
@@ -104,7 +114,8 @@ h2 {
 
 .columns6 {
   text-shadow: 2px 2px 8px black;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   font-size: 30px;
   text-align: center;
@@ -114,7 +125,8 @@ h2 {
 
 .columns7 {
   padding: 2% 0 2% 0;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -123,7 +135,8 @@ h2 {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0 0 0% 0;
   min-height: 400px;
 
@@ -133,7 +146,9 @@ h2 {
 .columns9 {
   padding: 2% 0 2% 0;
   text-align: center;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: darkblue;
   text-shadow: 2px 2px 8px rgb(0, 0, 110);
   font-weight: bold;
@@ -327,8 +342,8 @@ li .span2 {
 }
 
 .col10 {
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
   box-shadow: 6px 6px 6px black;
@@ -388,9 +403,10 @@ p {
   top: 85%;
   left: 90%;
   color: white;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 1.75%;
-  border: white double 2px;
+  border: white solid 2px;
   border-radius: 50%;
   font-weight: bold;
 }
@@ -412,7 +428,8 @@ p {
 .fa-facebook {
   font-size: 30px;
   color: white;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 1% 3% 1% 3%;
   font-weight: bold;
   margin-left: 5%;
@@ -424,7 +441,8 @@ p {
   cursor: pointer;
   font-weight: bold;
   color: white;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: .5% 4% 1% 4%;
   margin-right: 5%;
   vertical-align: middle;
@@ -453,7 +471,9 @@ p {
   border: darkblue double 10px;
   padding: 2%;
   color: darkblue;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 50%;
 
 }
@@ -463,7 +483,9 @@ p {
   border: darkblue double 10px;
   padding: 2% 2.90% 2% 2.9%;
   color: darkblue;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 50%;
 
 }
@@ -473,7 +495,9 @@ p {
   border: darkblue double 10px;
   padding: 2%;
   color: darkblue;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 50%;
 
 }
@@ -483,7 +507,9 @@ p {
   border: darkblue double 10px;
   padding: 2.5% 2% 2.5% 2%;
   color: darkblue;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 50%;
 
 }
@@ -510,7 +536,8 @@ p {
   max-width: 80%;
   position: relative;
   margin: auto;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Hide the images by default */
@@ -538,7 +565,9 @@ p {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Position the "next button" to the right */
@@ -550,7 +579,8 @@ p {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 
@@ -570,7 +600,9 @@ p {
   font-weight: bold;
   color: darkblue;
   text-shadow: 1px 0 0 rgb(48, 48, 135), 0 -1px 0 rgb(48, 48, 135), 0 1px 0 rgb(48, 48, 135), -1px 0 0 rgb(48, 48, 135);
-  background-color: yellow;
+  background: yellow;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, yellow,rgb(255, 200, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, yellow, rgb(255, 200, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-transition: opacity 2s ease-in;
   -moz-transition: opacity 2s ease-in;
   -o-transition: opacity 2s ease-in;
@@ -618,19 +650,21 @@ img {
 }
 
 .columns10 {
-  border-top: 5px solid rgb(0, 0, 95);
+  border-top: 5px solid white;
   font-weight: bold;
   text-align: center;
   margin: 0% 0 0% 0;
   padding: 6% 0 2% 0;
   color: darkblue;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .radnovreme {
   min-height: 200px;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 2% 0 2% 0;
   display: flex;
   justify-content: space-between;
@@ -644,8 +678,8 @@ img {
   padding: 2% 0 2% 0;
   margin: 2% 30% 4% 30%;
   text-align: center;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
   font-weight: bold;
@@ -661,7 +695,8 @@ img {
 }
 
 .col16 {
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .col17 {
@@ -671,8 +706,8 @@ img {
   margin: 0 0 0 5%;
   text-align: center;
   width: 25%;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
 
@@ -684,8 +719,8 @@ img {
   box-shadow: 6px 6px 6px black;
   text-align: center;
   width: 25%;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
 }
@@ -697,8 +732,8 @@ img {
   margin: 0 5% 0 0;
   text-align: center;
   width: 25%;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
 
@@ -754,9 +789,9 @@ img {
 }
 
 .kontakt {
-  border: 2px solid rgb(0, 0, 110);
   padding: 2% 0;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
 
 }
@@ -789,7 +824,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   border: 2px solid rgb(43, 43, 153);
 }
@@ -797,7 +833,8 @@ input[type=submit]:hover {
 .container {
   margin: 0 auto;
   border-radius: 5px;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 2%;
   width: 80%;
 }
@@ -805,7 +842,8 @@ input[type=submit]:hover {
 .topnav {
   overflow: hidden;
   transition: 300ms linear;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transition: 0.5s;
 }
 
@@ -826,7 +864,6 @@ input[type=submit]:hover {
 .topnav a:hover {
   overflow: hidden;
   transition: 300ms linear;
-  background-color: darkblue;
   text-shadow: 2px 2px 8px black;
 }
 
@@ -841,18 +878,18 @@ input[type=submit]:hover {
 }
 
 .tehnicki1 {
-  border: 2px solid rgb(0, 0, 110);
   padding: 2%;
   text-align: left;
-  background-color: darkblue;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-weight: bold;
 
 }
 
 .tehnicki1 h2 {
   width: 50%;
-  background-color: darkblue;
-  border: 2px solid rgb(0, 0, 110);
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 1%;
   box-shadow: 6px 6px 6px black;
 
@@ -997,7 +1034,7 @@ input[type=submit]:hover {
     margin: 2% 25% 2% 25%;
     text-align: center;
     background-color: darkblue;
-    border: 2px solid rgb(0, 0, 110);
+
     color: white;
     text-shadow: 2px 2px 8px black;
     font-weight: bold;
@@ -1091,18 +1128,6 @@ input[type=submit]:hover {
   .fa-facebook {
 
     margin-left: 2.5%;
-  }
-
-  .fa-automobile1 {
-
-    border: darkblue double 8px;
-
-  }
-
-  .fa-automobile2 {
-
-    border: darkblue double 8px;
-
   }
 
   .text {
@@ -1274,18 +1299,6 @@ input[type=submit]:hover {
 
   .col2 {
     font-size: 18px
-  }
-
-  .fa-automobile1 {
-
-    border: darkblue double 8px;
-
-  }
-
-  .fa-automobile2 {
-
-    border: darkblue double 8px;
-
   }
 
   .col9 {
@@ -1514,7 +1527,6 @@ input[type=submit]:hover {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 8px black;
-    background-color: darkblue;
     display: block;
     text-align: center;
     padding: 2% 0 2% 0;
@@ -1566,7 +1578,6 @@ input[type=submit]:hover {
     top: 80%;
     left: 85%;
     color: white;
-    background-color: darkblue;
     padding: 3%;
     border: white double 2px;
     border-radius: 50%;
@@ -1610,7 +1621,6 @@ input[type=submit]:hover {
     column-count: 1;
     padding: 5% 0 5% 0;
     text-align: center;
-    background-color: darkblue;
 
 
 
@@ -1654,8 +1664,6 @@ input[type=submit]:hover {
 
   .columns7 {
     padding: 2% 0 4% 0;
-    background-color: darkblue;
-
   }
 
   .col2 {
@@ -1698,7 +1706,6 @@ input[type=submit]:hover {
     top: 80%;
     left: 82%;
     color: white;
-    background-color: darkblue;
     padding: 4%;
     border: white double 2px;
     border-radius: 50%;
