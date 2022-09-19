@@ -1329,6 +1329,22 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 660px) {
 
+  .container{
+
+    width: 90%;
+
+  }
+
+  .col20 {
+    display: block;
+  
+  }
+
+  .col21 {
+
+    display: block;
+  }
+
   .span3 {
     display: none;
   }
