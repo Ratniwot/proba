@@ -60,5 +60,5 @@ var emailRegex = (/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.
 document.getElementById('email').match(emailRegex);
 
 
-var phoneNumRegex = /^(\+381)?(\s|-)?6(([0-6]|[8-9])\d{7}|(77|78)\d{6}){1}$/
-document.getElementById('telefon').match(phoneNumRegex);
+var re = /^(\+381)?(\s|-)?6(([0-6]|[8-9])\d{7}|(77|78)\d{6}){1}$/
+document.getElementById('phone').match(re);
