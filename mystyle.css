@@ -105,9 +105,6 @@ a:active {
   min-height: 400px;
 }
 
-.col6 .p2{
-  margin-top: 28%;
-}
 
 h2 {
 
@@ -655,7 +652,6 @@ img {
   min-height: 200px;
   background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 2% 0 2% 0;
   display: flex;
   justify-content: space-between;
   padding: 5% 0;
@@ -691,11 +687,11 @@ img {
 
 .col17 {
   padding-top: 2%;
+  margin: 0% 0% 0% 10%;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
-  margin: 0 0 0 5%;
   text-align: center;
-  width: 25%;
+  width: 35%;
   background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
@@ -705,27 +701,40 @@ img {
 
 .col18 {
   padding-top: 2%;
+  margin: 0% 10% 0% 0%;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
   text-align: center;
-  width: 25%;
+  width: 35%;
   background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
 }
 
+.div3{
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0% 0 4% 0;
+}
+
 .col19 {
-  padding-top: 2%;
+  margin: 0 auto;
+  padding: 2% 0 2% 0;
   font-weight: bold;
   box-shadow: 6px 6px 6px black;
-  margin: 0 5% 0 0;
   text-align: center;
-  width: 25%;
+  width: 80%;
   background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   text-shadow: 2px 2px 8px black;
+
+}
+
+.p3 {
+
+  font-size: 24px;
 
 }
 
@@ -985,10 +994,6 @@ input[type=submit]:hover {
   }
 
 
-  .col6 .p2{
-    margin-top: 28%;
-  }
-
   .col9 {
 
     max-width: 85%;
@@ -1052,6 +1057,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 1024px) {
 
+  .p3 {
+
+    font-size: 20px;
+  
+  }
 
   .topnav a:not(:last-child) {
     display: none;
@@ -1182,20 +1192,6 @@ input[type=submit]:hover {
   .columns8 {
 
     min-height: 300px;
-
-  }
-
-  .col17 {
-    width: 20%;
-  }
-
-  .col18 {
-    width: 30%;
-  }
-
-  .col19 {
-
-    width: 35%;
 
   }
 
