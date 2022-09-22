@@ -105,6 +105,10 @@ a:active {
   min-height: 400px;
 }
 
+.col6 .p2{
+  margin-top: 28%;
+}
+
 h2 {
 
   color: white;
@@ -253,19 +257,6 @@ h2 {
   padding: 2% 2% 2% 2%;
   background-image: url(zelenikarton.webp);
   border-radius: 5%;
-}
-
-.ul1 {
-  font-weight: bold;
-  font-size: 18px;
-
-}
-
-li .span2 {
-
-  position: relative;
-  left: -7%;
-
 }
 
 .col6:hover {
@@ -991,6 +982,11 @@ input[type=submit]:hover {
 
     font-size: 24px;
 
+  }
+
+
+  .col6 .p2{
+    margin-top: 28%;
   }
 
   .col9 {
